@@ -787,5 +787,9 @@ Parallax
 		border-radius: 50%;
 		font-size: 20px;
 	}
+
+	.intro .slogan h2 {
+		font-size: 36px;
+	}
 	
 }
