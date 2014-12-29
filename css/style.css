@@ -304,23 +304,29 @@ hr {
 --- Intro
 ============================ */
 
+.intro, .service {
+  width: 100%;
+  position: relative;
+}
+
 .intro {
-	width:100%;
-	position:relative;
-	
 	background: url(../img/14053783251_ed09bb58c8_ksm.jpg) no-repeat top center;
 }
 
-#intro.intro {
+.service {
+  background: url(../img/6079019906_560190a756_o_sm.png) no-repeat top center;
+}
+
+#intro.intro, #intro.service {
 	padding:20% 0 0 0;
 }
 
-.intro .slogan {
+.intro .slogan, .service .slogan {
 	text-align: center;
 
 }
 
-.intro .page-scroll {
+.intro .page-scroll, .service .page-scroll {
 	text-align: center;
 }
 
@@ -332,7 +338,7 @@ hr {
     font-size: 18px;
 }
 
-.intro .slogan h2 {
+.intro .slogan h2, .service .slogan h2 {
 	color: #FFF;
 	text-shadow: none;
 	font-size: 60px;
@@ -348,7 +354,7 @@ hr {
 	text-shadow: -1px 0 1px #000;
 }
 
-.intro .slogan h4 {
+.intro .slogan h4, .intro .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
 }
@@ -735,7 +741,7 @@ Parallax
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 	
-    .intro {
+    .intro, .service {
         height: 100%;
         padding: 0;
     }
@@ -760,6 +766,18 @@ Parallax
 	.boxed-grey {
 		margin-bottom: 30px;
 	}
+
+  .intro {
+    background: url(../img/14053783251_ed09bb58c8_ksm768.png) no-repeat top center;
+  }
+
+  .service {
+    background: url(../img/6079019906_560190a756_o_sm768.png) no-repeat top center;
+  }
+
+  #intro.intro {
+    height: 50%;
+  }
 
 	
 }
@@ -788,8 +806,17 @@ Parallax
 		font-size: 20px;
 	}
 
-  .intro .slogan h2 {
-    font-size: 36px;
+  .intro {
+    background: url(../img/14053783251_ed09bb58c8_ksm480.png) no-repeat top center;
+  }
+
+  .service {
+    background: url(../img/6079019906_560190a756_o_sm480.png) no-repeat top center;
+  }
+
+  .intro .slogan h2, .service .slogan h2 {
+    font-size: 24px;
+    line-height: 1.1;
   }
 
 }
